@@ -215,7 +215,7 @@ footer .footer_top .fnb {
     margin: 30px 50px 0; padding:50px;
     
 }
-footer .footer_top .fnb dl {
+footer .footer_top .fnb dl {text-transform:capitalize;
     
 }
 footer .footer_top .fnb dl dt {
@@ -246,8 +246,8 @@ footer .footer_btm a img {width: 100%;}
 footer .footer_btm .sns {}
 footer .footer_btm .sns a {
     background: url(../images/css_sprites\ \(2\).png) no-repeat;
-    width: 25px; height: 25px;
-    background-position-y: 0;
+    width: 25px; height: 25px; margin: 5px;
+    background-position-y: 0; 
 }
 footer .footer_btm .sns a:hover {
     background: url(../images/css_sprites\ \(1\).png) no-repeat;

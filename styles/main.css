@@ -1,0 +1,262 @@
+
+main div > .container {
+    width: 1100px; margin: 0 auto; padding: 100px 0; 
+}
+/* header */
+header {/* background-color: bisque; */
+    text-align: center; 
+}
+header h1:hover {
+    background-color: black; padding: 5px 10px;
+    border-radius: 50%;
+}
+header h1 {/* background-color: blueviolet; */
+    width:200px;
+    position: fixed; right: 100px; bottom: 100px; z-index: 999;
+}
+header h1 a {/* background: #af1d1d; */
+    text-align: center;
+}
+header h1 a img {width: 80%;}
+header h1 a span {color: red; font-weight: 600; font-size: 2rem; 
+}
+
+/* main */
+/* ------------------------ row1 */
+main .row1 {
+    background: url(../images/bg_row1.jpg) no-repeat center;
+    background-size: cover; background-attachment: fixed;
+    height: 1000px;
+    position:relative;
+    
+}
+main .row1 .grd {
+    width: 100%; height: 100%;
+    background:linear-gradient(90deg,rgba(150, 107, 107, 0.8),transparent);
+    z-index: 500;
+}
+main .row1 .container {}
+main .row1 .container .title {/* background-color: bisque; */
+    position: absolute; top: 10%;
+}
+main .row1 .container .title h1 {/* background-color: blue; */
+    text-transform:capitalize;
+    line-height: 1.5; letter-spacing: -0.02em;
+    font-weight: 600; color: antiquewhite;
+    margin-bottom: 100px;
+    display: flex; flex-flow: column nowrap; 
+    align-items: flex-start; 
+}
+main .row1 .container .title h1 span {margin: 8px;}
+main .row1 .container .title h1 span:nth-child(1) {background: rgba(197, 40, 40, 0.3);
+    /* border: 1px solid #cc6868; */ padding: 10px 20px 15px;
+    font-size: 5rem; font-weight: 600; 
+}
+main .row1 .container .title h1 span:nth-child(2) {background: auq;
+    font-size: 7rem; font-weight: 600;}
+main .row1 .container .title h1 span:nth-child(3) {
+    font-size:2rem; font-weight:300; letter-spacing: -0.02em; 
+}
+main .row1 .container .title p {/* background-color: blueviolet; */
+    margin-bottom: 20px; color:antiquewhite;
+    font-size: 2rem; line-height: 1.5em;
+}
+/* main .row1 .container .title p:hover {
+    color: #fff;
+} */
+/* ------------------------ row2 */
+main .row2 {/* background-color: burlywood; */}
+main .row2 .container {text-align: center;
+}
+main .row2 .container h1 {/* background-color: aquamarine; */
+    font-size: 3rem; font-weight: 600; line-height: 1.5em;
+    letter-spacing: -0.02em;
+
+}
+main .row2 .container ul {/* background-color: blue; */
+    text-align: center;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between;
+    
+}
+main .row2 .container ul li {background-color: beige;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0 10px; padding:10px 0;
+}
+main .row2 .container ul li:nth-of-type(1) .bg { 
+    background: url(../images/li_food.jpg); background-size: cover;
+}
+main .row2 .container ul li:nth-of-type(2) .bg { 
+    background: url(../images/li_time.jpg); background-size: cover;
+}
+main .row2 .container ul li:nth-of-type(3) .bg { 
+    background: url(../images/li_friend.jpg); background-size: cover;
+}
+main .row2 .container ul li .bg {
+    border-radius: 50%;
+    width: 200px; height: 200px; 
+    
+}
+main .row2 .container ul li .right {/* background-color: cadetblue; */
+    width: 50%; display: inline-block;
+    text-align: left;
+}
+main .row2 .container ul li .left {/* background-color: cadetblue; */
+    width: 50%; display: inline-block;
+    text-align: left;
+}
+main .row2 .container ul li div h2 {
+    font-size: 1.5rem; font-weight: 500; line-height: 1.3em;
+}
+main .row2 .container ul li div p {
+    line-height: 1.5em; letter-spacing: -0.02em;
+}
+main .row2 .container ul li div p em {
+    color:#af1d1d;
+}
+/* ------------------------ row3 */
+main .row3 {background-color: antiquewhite;
+    text-align: center;
+}
+main .row3 .container {/* background-color: blue; */}
+main .row3 .container iframe {
+    border-radius: 3%; border: 2px solid #b93333;
+}
+main .row3 .container h1 {/* background-color: aquamarine; */
+    margin-top: 30px;
+    font-size: 2rem; letter-spacing: -0.02em;
+}
+/* ------------------------ row4 */
+main .row4 {/* background-color: burlywood; */
+    text-align: center;
+}
+main .row4 .container {}
+main .row4 .container h1 {
+    
+    /* background-color: aqua; */
+    /* text-transform: uppercase; */
+    font-size: 3rem; font-weight: 600;
+    margin: 20px 0;
+}
+main .row4 .container .contents {/* background-color: cadetblue; */
+    text-align: center; 
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main .row4 .container .contents a {width: 23%;}
+main .row4 .container .contents a h2 {/* background-color: blueviolet; */
+    height: 300px; overflow: hidden; 
+    position: relative;
+}
+main .row4 .container .contents a h2 span {width: 100%;
+    border: 2px solid #f31212; padding: 2px; display: inline;
+    position: absolute; top: 0; left: 0; /* transform:translate(-50%,-50%); */
+    font-size: 1.4rem; color:#da1919; font-weight: 500; 
+    
+}
+main .row4 .container .contents a p {background-color: beige;
+    width: 100%; /* height: 30%; */ text-align: left;
+    font-size: 0.875rem; line-height: 1.3em; font-weight: 400; letter-spacing: -0.02em;
+    padding: 10px 10px 0; 
+    text-overflow: ellipsis;
+    white-space:normal;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    display:-webkit-box; overflow: hidden;
+}
+main .row4 .container .contents a h2 img {width: 100%; transition: all 0.5s;}
+main .row4 .container .contents a:hover h2 img {transform:scale(1.2) ; }
+
+
+/* ------------------------ row5 */
+main .row5 {background-color: antiquewhite;
+    background: url(../images/bg_row5.jpg) no-repeat center;
+    background-size: cover;
+    height: 900px;
+    position:relative;
+}
+main .row5 .container {/* background-color: #af1d1d; */}
+main .row5 .container h1 {
+    font-size: 4rem; line-height: 1.5em; letter-spacing: -0.02em;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+main .row5 .container p {
+    margin-bottom: 20px;
+    font-size: 1.5rem; line-height: 1.5em;
+}
+main .row5 .container:hover p {
+    color:#af1d1d;
+}
+/* footer */
+footer {/* background-color: burlywood; */}
+footer .footer_top {
+    display: flex; flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+footer .footer_top .left {background-color: aqua;
+    width: 30%; height: 420px; overflow: hidden;
+    background: url(../images/footer_bg.jpg) no-repeat center;
+    background-size:cover ;
+    position:relative;
+}
+footer .footer_top .left::before {
+    width:100%; height: 100%; content: '';
+    background-color:rgba(255, 255, 255, 0.4);
+    position: absolute; top: 0; left: 0; 
+}
+footer .footer_top .fnb {
+    width: 50%;
+    display: inline-block;
+    display: flex; flex-flow: row nowrap; 
+    justify-content:space-around;
+    margin: 30px 50px 0; padding:50px;
+    
+}
+footer .footer_top .fnb dl {
+    
+}
+footer .footer_top .fnb dl dt {
+    font-size: 1.2rem; font-weight: 600; line-height: 1.2em; letter-spacing: -0.02em;
+    margin-bottom: 20px;
+}
+footer .footer_top .fnb dl dd {
+    padding-bottom: 10px;
+}
+footer .footer_top .fnb dl dd a {/* background-color: antiquewhite; */
+    line-height: 1.2em; letter-spacing: -0.02em; font-weight: 400;
+    
+}
+footer .footer_top .fnb dl dd a:hover {
+    color:#af1d1d; font-weight: 500; text-decoration: underline;
+}
+footer .footer_btm {background-color: #252222; 
+    width: 100%; height: 100px; display: block;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .footer_btm a {
+    width: 60px; height: 90px;
+    display: inline-block; 
+}
+footer .footer_btm a img {width: 100%;}
+footer .footer_btm .sns {}
+footer .footer_btm .sns a {
+    background: url(../images/css_sprites\ \(2\).png) no-repeat;
+    width: 25px; height: 25px;
+    background-position-y: 0;
+}
+footer .footer_btm .sns a:hover {
+    background: url(../images/css_sprites\ \(1\).png) no-repeat;
+    width: 25px; height: 25px;
+    background-position-y: 0;
+}
+footer .footer_btm .sns a:nth-child(1) {background-position-x: 0;}
+footer .footer_btm .sns a:nth-child(2) {background-position-x: -25px;}
+footer .footer_btm .sns a:nth-child(3) {background-position-x: -50px;}
+footer .footer_btm .sns a:nth-child(4) {background-position-x: -100px;}
+footer .footer_btm .sns a:nth-child(5) {background-position-x: -125px;}
+footer .footer_btm .sns a:nth-child(6) {background-position-x: -150px;}
